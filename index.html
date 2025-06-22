@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Pixel Pink Todo List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_new.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="content">
+            <h1 class="title">Cute Todo List</h1>
+            
+            <!-- Todo List Section -->
+            <div class="todo-section">
+                <div class="input-group">
+                    <input type="text" id="todoInput" class="pixel-input" placeholder="Add new task...">
+                    <button id="addTodo" class="pixel-button">Add</button>
+                </div>
+                <ul id="todoList" class="todo-list"></ul>
+            </div>
+
+            <!-- Timer Section -->
+            <div class="timer-section">
+                <h2 class="timer-title">Timer</h2>
+                <div class="timer-display" id="timerDisplay">00:00:00</div>
+                <div class="timer-controls">
+                    <button id="startTimer" class="pixel-button">Start</button>
+                    <button id="pauseTimer" class="pixel-button">Pause</button>
+                    <button id="resetTimer" class="pixel-button">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
